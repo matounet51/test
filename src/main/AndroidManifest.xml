@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="d_land.d_land">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/logo32"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+
+        <activity
+        android:name=".MainActivity"
+        android:configChanges="orientation|keyboardHidden"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        <!--@style/DLAND-->
+    </activity>
+        <activity
+            android:name=".Pages.Page1"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page10"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page11"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page12"
+            android:screenOrientation="sensor"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page2"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page3"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page4"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page5"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page6"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page7"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page8"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Page9"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Restos"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.CartesRestos"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+            android:name=".Pages.Contacts"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+        <activity
+        android:name=".WTMAP"
+        android:configChanges="orientation|keyboardHidden"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <!--@style/DLAND-->
+    </activity>
+        <activity
+            android:name=".OnboardingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <!--@style/DLAND-->
+        </activity>
+
+
+        <receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="d_land.d_land" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="d_land.d_land.MyGcmListenerService" android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <service android:name="d_land.d_land.MyInstanceIDListenerService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

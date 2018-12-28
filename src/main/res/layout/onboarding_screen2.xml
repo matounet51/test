@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Pour commencer..."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Comment se servir du menu"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingTop="50dp"
+        android:text="Le menu est disponible en glissant votre doigt du bord gauche de l'écran vers le centre ou en cliquant sur le hamburger en haut à gauche de votre écran d'accueil. Celui-ci vous permettra d'accéder aux contenus de l'application (temps d'attente, map, réhabilitations...)"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
